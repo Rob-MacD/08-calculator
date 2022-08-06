@@ -1,0 +1,33 @@
+html,
+body {
+  background-color: black;
+  color: white;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#master {
+  padding: 5px;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+#textField {
+  background-color: lightgray;
+  margin-bottom: 5px;
+  overflow: hidden;
+  color: black;
+  direction: rtl;
+  width: 110px;
+}
+
+h2 {
+  padding: 0px;
+  margin: 0px;
+}
+button {
+  width: 25px;
+}

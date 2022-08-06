@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="master">
+      <div id="calculator">
+        <div id="header">
+          <h2>Calculator</h2>
+        </div>
+        <div id="buttons">
+          <div id="textField">0</div>
+          <div id="1-3">
+            <button onclick="one()">1</button>
+            <button onclick="two()">2</button>
+            <button onclick="three()">3</button>
+            <button onclick="plus()">+</button>
+          </div>
+          <div id="4-6">
+            <button onclick="four()">4</button>
+            <button onclick="five()">5</button>
+            <button onclick="six()">6</button>
+            <button onclick="minus()">-</button>
+          </div>
+          <div id="7-9">
+            <button onclick="seven()">7</button>
+            <button onclick="eight()">8</button>
+            <button onclick="nine()">9</button>
+            <button onclick="multiply()">x</button>
+          </div>
+          <div id="0-clear">
+            <button onclick="reset()">C</button>
+            <button onclick="zero()">0</button>
+            <button onclick="equals()">=</button>
+            <button onclick="divide()">/</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
